@@ -1,0 +1,17 @@
+
+.Album {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 300px;
+    padding: 16px;
+}
+
+.Album-top-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8px;
+}
+
+img {
+    width: 100%;
+}
